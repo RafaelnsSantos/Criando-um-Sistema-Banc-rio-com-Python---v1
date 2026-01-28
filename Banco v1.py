@@ -34,7 +34,7 @@ while True:
             print("Operação falhou! Você não tem saldo suficiente.")
 
         elif excedeu_limite:
-            print("Operação falhou! O valor do saque excede o limite.")
+            print(f"Operação falhou! O valor de R${valor_saque:.2f} saque excede o limite.")
 
         elif excedeu_saques:
             print("Operação falhou! Número máximo de saques excedido.")
